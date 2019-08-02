@@ -1,0 +1,20 @@
+PODS:
+  - HKCommonModule (0.1.0):
+    - HKCommonModule/HKCategory (= 0.1.0)
+    - HKCommonModule/HKCommon (= 0.1.0)
+  - HKCommonModule/HKCategory (0.1.0)
+  - HKCommonModule/HKCommon (0.1.0)
+
+DEPENDENCIES:
+  - HKCommonModule (from `../`)
+
+EXTERNAL SOURCES:
+  HKCommonModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HKCommonModule: 5b9f9f878c71ef96965464df8f26dd4f2e93742b
+
+PODFILE CHECKSUM: 8c3c43713405af66a2e3e3d1aff7043e30fdc08b
+
+COCOAPODS: 1.7.5
