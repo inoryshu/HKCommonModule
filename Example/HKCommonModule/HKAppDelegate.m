@@ -7,6 +7,7 @@
 //
 
 #import "HKAppDelegate.h"
+#import "HKCommonModuleHeader.h"
 
 @implementation HKAppDelegate
 

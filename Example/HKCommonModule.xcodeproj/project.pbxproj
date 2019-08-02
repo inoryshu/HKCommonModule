@@ -66,7 +66,7 @@
 		9488B7A2344FBC9E3738D81A /* Pods_HKCommonModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HKCommonModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2153AB0C5C88D96F8A25ED /* Pods-HKCommonModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKCommonModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-HKCommonModule_Tests/Pods-HKCommonModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A8574B92255790C75EBC5A52 /* Pods_HKCommonModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HKCommonModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB64044F2861B8D2EBB80DF9 /* HKCommonModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HKCommonModule.podspec; path = ../HKCommonModule.podspec; sourceTree = "<group>"; };
+		AB64044F2861B8D2EBB80DF9 /* HKCommonModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HKCommonModule.podspec; path = ../HKCommonModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
