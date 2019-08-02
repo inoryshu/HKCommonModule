@@ -14,9 +14,11 @@
 #import "NSBundle+HKBundle.h"
 #import "NSString+HKAdd.h"
 #import "UIColor+HKColor.h"
+#import "UIImage+HKAdd.h"
 #import "UIImageView+HKAdd.h"
 #import "UIStoryboard+HKStoryboard.h"
 #import "UIView+HKAddView.h"
+#import "HKCommonDefine.h"
 #import "HKGCDCommon.h"
 
 FOUNDATION_EXPORT double HKCommonModuleVersionNumber;

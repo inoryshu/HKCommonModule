@@ -1,9 +1,9 @@
 PODS:
-  - HKCommonModule (0.1.1):
-    - HKCommonModule/HKCategory (= 0.1.1)
-    - HKCommonModule/HKCommon (= 0.1.1)
-  - HKCommonModule/HKCategory (0.1.1)
-  - HKCommonModule/HKCommon (0.1.1)
+  - HKCommonModule (0.1.3):
+    - HKCommonModule/HKCategory (= 0.1.3)
+    - HKCommonModule/HKCommon (= 0.1.3)
+  - HKCommonModule/HKCategory (0.1.3)
+  - HKCommonModule/HKCommon (0.1.3)
 
 DEPENDENCIES:
   - HKCommonModule (from `../`)
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HKCommonModule: c45f837a84bf19ac8ec86b19a992385a008ff6b3
+  HKCommonModule: 77412c5ab019e5d681a8ea42cb230e229a53cbeb
 
 PODFILE CHECKSUM: 8c3c43713405af66a2e3e3d1aff7043e30fdc08b
 
