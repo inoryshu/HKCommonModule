@@ -9,6 +9,7 @@
 #define HKCommonModuleHeader_h
 
 #import "HKGCDCommon.h"
+#import "HKCommonDefine.h"
 
 #import "NSBundle+HKBundle.h"
 #import "NSString+HKAdd.h"
