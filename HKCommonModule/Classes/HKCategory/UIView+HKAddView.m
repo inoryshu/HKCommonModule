@@ -125,7 +125,7 @@
         Class class = [self class];
         
         SEL originalSelector = NSSelectorFromString(@"dealloc");
-        SEL swizzledSelector = @selector(gt_dealloc);
+        SEL swizzledSelector = @selector(hk_dealloc);
         
         Method originalMethod = class_getInstanceMethod(class, originalSelector);
         Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
@@ -139,10 +139,11 @@
     });
 }
 
-- (void)gt_dealloc {
+- (void)hk_dealloc {
+    
 #if DEBUG
         NSLog(@"\n🏀%@ - dealloc", NSStringFromClass([self class]));
 #endif
-    [self gt_dealloc];
+//    [self gt_dealloc];
 }
 @end

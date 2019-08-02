@@ -36,4 +36,14 @@
 // MARK: 全局数字字体
 #define Font_Global_Number(f)    [UIFont fontWithName:@"DINAlternate-Bold" size:f]
 
+// MARK: LOG输出
+#ifdef DEBUG
+#define DeallocLog [self hk_dealloc];
+#define WLog(...) NSLog(@"\n\n✅\n %s %d行 \n\n %@ \n\n.",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+#else
+#define WLog(...)
+#define DeallocLog
+#endif
+
+
 #endif /* HKCommonDefine_h */
