@@ -22,6 +22,9 @@
 		6E4A085DFBAFABB6CD1CB5304864D097 /* NSString+HKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C22AF27346AF6FD5B61E343A214F7F /* NSString+HKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73E1D96522D96572DF659294EBDF513A /* NSBundle+HKBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 66491A4EF31D8CBE23091896D0CF3238 /* NSBundle+HKBundle.m */; };
 		7B5077237CAC5BC6558E272CA6BF3E63 /* UIImageView+HKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D29F6264A4DDC3399C435C36A4571B8A /* UIImageView+HKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		982FF93222F44BE000C420CE /* HKCommonDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 982FF93122F44BE000C420CE /* HKCommonDefine.h */; };
+		982FF93522F44D1E00C420CE /* UIImage+HKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 982FF93322F44D1E00C420CE /* UIImage+HKAdd.h */; };
+		982FF93622F44D1E00C420CE /* UIImage+HKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 982FF93422F44D1E00C420CE /* UIImage+HKAdd.m */; };
 		9BDE9CA49793A5867D4AFC57C5266A75 /* HKGCDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BE0D7074175E33908DA4402BDE3AD9 /* HKGCDCommon.m */; };
 		AB863791FC3B9887225D32BD77EB20F1 /* UIStoryboard+HKStoryboard.h in Headers */ = {isa = PBXBuildFile; fileRef = F18109D327EF9FD0E429990A745AE1AB /* UIStoryboard+HKStoryboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFC60E5F5F0C776FA170DD844661F155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -59,32 +62,35 @@
 		30D8E6CE1BCC37371CEF9C8B601D3A6B /* HKCommonModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HKCommonModule.modulemap; sourceTree = "<group>"; };
 		3198BD0F0143DB19F151B2C034C6BF4E /* HKCommonModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKCommonModule-prefix.pch"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		32B2754261FE4A54861EABCD9AF2FD20 /* Pods_HKCommonModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HKCommonModule_Tests.framework; path = "Pods-HKCommonModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B2754261FE4A54861EABCD9AF2FD20 /* Pods_HKCommonModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HKCommonModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33563A7C4273DA1A75E4AC92981E7DD9 /* UIColor+HKColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HKColor.h"; path = "HKCommonModule/Classes/HKCategory/UIColor+HKColor.h"; sourceTree = "<group>"; };
 		36D2391C529EE6C0A5B38C5034A9B9E5 /* Pods-HKCommonModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKCommonModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3ECC5D10AAAE7B6EFB46B895DFB47DF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3ECC5D10AAAE7B6EFB46B895DFB47DF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		448C26A8A162E1841722CAF98F6BEEAF /* NSString+HKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HKAdd.m"; path = "HKCommonModule/Classes/HKCategory/NSString+HKAdd.m"; sourceTree = "<group>"; };
 		56D4ACA37FC478F43585F3DAF4E9EC25 /* HKCommonModuleHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKCommonModuleHeader.h; path = HKCommonModule/Classes/HKCommonModuleHeader.h; sourceTree = "<group>"; };
 		576C9EE79520944B5471C9729AD60B8D /* Pods-HKCommonModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HKCommonModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		57FA7DCFC83A1FF733CCE933C0F270B1 /* HKCommonModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKCommonModule-umbrella.h"; sourceTree = "<group>"; };
-		5BD2E27BE2A782AB7CD37780B1F19D76 /* HKCommonModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HKCommonModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5BD2E27BE2A782AB7CD37780B1F19D76 /* HKCommonModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HKCommonModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5E7F0AD66271FAD4F02A5D0FC8EA1BE1 /* Pods-HKCommonModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKCommonModule_Tests-Info.plist"; sourceTree = "<group>"; };
 		66491A4EF31D8CBE23091896D0CF3238 /* NSBundle+HKBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+HKBundle.m"; path = "HKCommonModule/Classes/HKCategory/NSBundle+HKBundle.m"; sourceTree = "<group>"; };
 		884EA50D661BA4FC674A3483CEE4916A /* Pods-HKCommonModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HKCommonModule_Tests.modulemap"; sourceTree = "<group>"; };
 		8A4E5007EA5AB4104269A27F7D329B18 /* Pods-HKCommonModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKCommonModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8AEEAC4388FFF23A9757D9B8FA6AE980 /* UIView+HKAddView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+HKAddView.m"; path = "HKCommonModule/Classes/HKCategory/UIView+HKAddView.m"; sourceTree = "<group>"; };
-		8ED33E381BF177C6224B6E7D0F3D0386 /* Pods_HKCommonModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HKCommonModule_Example.framework; path = "Pods-HKCommonModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED33E381BF177C6224B6E7D0F3D0386 /* Pods_HKCommonModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HKCommonModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F28C06038560F16483E7E137EE1132 /* Pods-HKCommonModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HKCommonModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		979BB7478EB01002450D0BEDECA19D36 /* Pods-HKCommonModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HKCommonModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		982FF93122F44BE000C420CE /* HKCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKCommonDefine.h; sourceTree = "<group>"; };
+		982FF93322F44D1E00C420CE /* UIImage+HKAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIImage+HKAdd.h"; path = "HKCommonModule/Classes/HKCategory/UIImage+HKAdd.h"; sourceTree = "<group>"; };
+		982FF93422F44D1E00C420CE /* UIImage+HKAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HKAdd.m"; path = "HKCommonModule/Classes/HKCategory/UIImage+HKAdd.m"; sourceTree = "<group>"; };
 		99DF8F20807DA91A89638DA80E8444FA /* Pods-HKCommonModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HKCommonModule_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DFA241910D22822A479021AAAE5AC70 /* HKCommonModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HKCommonModule.framework; path = HKCommonModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DFA241910D22822A479021AAAE5AC70 /* HKCommonModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HKCommonModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7445BF2B3EAF80D3B5F768DA0954ED /* Pods-HKCommonModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKCommonModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A00B93D33AFF20A23E4BF96CE348B227 /* UIImageView+HKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HKAdd.m"; path = "HKCommonModule/Classes/HKCategory/UIImageView+HKAdd.m"; sourceTree = "<group>"; };
 		A2020B3F9388DEA7ACB4926999A99CF8 /* Pods-HKCommonModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HKCommonModule_Example.modulemap"; sourceTree = "<group>"; };
 		A473B31A64EC3779D24FD540ACB901B7 /* Pods-HKCommonModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKCommonModule_Example-Info.plist"; sourceTree = "<group>"; };
 		B2557B4EC61AAA319D91F8564FD3B17E /* HKCommonModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HKCommonModule-dummy.m"; sourceTree = "<group>"; };
-		BF205EE8CAC60EC198E0DC8AFD585666 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BF205EE8CAC60EC198E0DC8AFD585666 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C48C323C035D741BFB41874ABA4B5664 /* Pods-HKCommonModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKCommonModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D29F6264A4DDC3399C435C36A4571B8A /* UIImageView+HKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HKAdd.h"; path = "HKCommonModule/Classes/HKCategory/UIImageView+HKAdd.h"; sourceTree = "<group>"; };
 		D2C22AF27346AF6FD5B61E343A214F7F /* NSString+HKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HKAdd.h"; path = "HKCommonModule/Classes/HKCategory/NSString+HKAdd.h"; sourceTree = "<group>"; };
@@ -165,6 +171,8 @@
 				EC12920A11998A05E84E7AD96A2C9E26 /* UIColor+HKColor.m */,
 				D29F6264A4DDC3399C435C36A4571B8A /* UIImageView+HKAdd.h */,
 				A00B93D33AFF20A23E4BF96CE348B227 /* UIImageView+HKAdd.m */,
+				982FF93322F44D1E00C420CE /* UIImage+HKAdd.h */,
+				982FF93422F44D1E00C420CE /* UIImage+HKAdd.m */,
 				F18109D327EF9FD0E429990A745AE1AB /* UIStoryboard+HKStoryboard.h */,
 				01017CE0753B4B0BF77329AED89AB7BF /* UIStoryboard+HKStoryboard.m */,
 				F28FD9BE83CBC1190B54761270AC9DF3 /* UIView+HKAddView.h */,
@@ -186,6 +194,7 @@
 			children = (
 				EEC59C310145B46283F08E617E8E43F9 /* HKGCDCommon.h */,
 				E3BE0D7074175E33908DA4402BDE3AD9 /* HKGCDCommon.m */,
+				982FF93122F44BE000C420CE /* HKCommonDefine.h */,
 			);
 			name = HKCommon;
 			sourceTree = "<group>";
@@ -307,9 +316,11 @@
 				582EE59340DFD2EFBBC64215093E6A9E /* HKGCDCommon.h in Headers */,
 				6539ADA40A6AA76A26E040EF65112B51 /* NSBundle+HKBundle.h in Headers */,
 				6E4A085DFBAFABB6CD1CB5304864D097 /* NSString+HKAdd.h in Headers */,
+				982FF93222F44BE000C420CE /* HKCommonDefine.h in Headers */,
 				CC70DFC72740BD6C82F4CC89C3E6761E /* UIColor+HKColor.h in Headers */,
 				7B5077237CAC5BC6558E272CA6BF3E63 /* UIImageView+HKAdd.h in Headers */,
 				AB863791FC3B9887225D32BD77EB20F1 /* UIStoryboard+HKStoryboard.h in Headers */,
+				982FF93522F44D1E00C420CE /* UIImage+HKAdd.h in Headers */,
 				2B3007E1F351C80AF7446B78F037BD88 /* UIView+HKAddView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5E904B19B682B9C7B565981775CB544 /* HKCommonModule-dummy.m in Sources */,
+				982FF93622F44D1E00C420CE /* UIImage+HKAdd.m in Sources */,
 				9BDE9CA49793A5867D4AFC57C5266A75 /* HKGCDCommon.m in Sources */,
 				73E1D96522D96572DF659294EBDF513A /* NSBundle+HKBundle.m in Sources */,
 				C55E885A53011CB554ABEFCF6D374794 /* NSString+HKAdd.m in Sources */,
@@ -560,8 +572,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

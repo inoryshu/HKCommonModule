@@ -7,6 +7,9 @@
 
 #ifndef HKCommonModuleHeader_h
 #define HKCommonModuleHeader_h
+
+#import "HKGCDCommon.h"
+
 #import "NSBundle+HKBundle.h"
 #import "NSString+HKAdd.h"
 #import "UIColor+HKColor.h"
